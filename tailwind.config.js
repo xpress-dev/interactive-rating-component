@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: "'Overpass', sans-serif",
+        serif: "'Oswald', sans-serif",
       },
     },
   },
