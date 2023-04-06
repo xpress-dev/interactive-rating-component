@@ -9,7 +9,7 @@ const Rating = () => {
   return (
     <div>
       {showThankYou && selectedRatingCount ? (
-        <ThankYou />
+        <ThankYou finalCount={selectedRatingCount} />
       ) : (
         <article className='bg-[#252d37] w-[400px] rounded-3xl h-[395px] p-8 flex flex-col gap-5'>
           <div className=' bg-[#7c879835] w-12 h-12 flex justify-center items-center  rounded-full'>
