@@ -10,3 +10,4 @@ This is a responsive implementation of the results summary component.
 
 - ReactJS
 - TailwindCSS
+- Framer Motion
